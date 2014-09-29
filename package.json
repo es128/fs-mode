@@ -1,0 +1,24 @@
+{
+  "name": "fs-mode",
+  "version": "1.0.0",
+  "description": "Provides async and sync fs methods with identical APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "fs",
+    "mode",
+    "async",
+    "sync",
+    "file"
+  ],
+  "author": "Elan Shanker",
+  "license": "ISC",
+  "dependencies": {
+    "cbify": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.4"
+  }
+}
