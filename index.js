@@ -4,9 +4,7 @@ var fs = require('fs');
 var cbify = require('cbify');
 
 function fsMode (altFs) {
-	if (typeof altFs !== 'object' && typeof altFs !== 'function') {
-		altFs = fs;
-	}
+	if (typeof altFs === 'string') altFs = require(altFs);
 	return modeify({}, altFs)
 }
 
