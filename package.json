@@ -3,8 +3,15 @@
   "version": "1.0.0",
   "description": "Provides async and sync fs methods with identical APIs",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/es128/fs-mode"
   },
   "keywords": [
     "fs",
@@ -15,6 +22,10 @@
   ],
   "author": "Elan Shanker",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/es128/fs-mode/issues"
+  },
+  "homepage": "https://github.com/es128/fs-mode",
   "dependencies": {
     "cbify": "^1.0.0"
   },
